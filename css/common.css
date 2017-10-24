@@ -1,0 +1,131 @@
+/*
+ * Clases reutilizables para el proyecto
+ * (Aquí pueden ir las clases de tu grid)
+ */
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+header .container {
+    position: fixed;
+    background: white;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+a {
+    color: #373B47;
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #E95853;
+}
+.logo{
+    padding: 0 15px;
+    width: 85px;
+}
+
+#home .container{
+    color: white;
+    /*padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+.text-home {
+    font-size: 53px;
+}
+
+.btn-home {
+    background: #2ecc71; /*color de fondo*/
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 63px;
+    font-size: 14px;
+}
+
+#services {
+    background-color: #f17c72;
+    text-align: center;
+    color: #fff;
+    padding: 70px 70px;
+}
+
+.box-services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box-services img{
+    padding: 10px 15px;
+}
+.text-services {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#home .container, #work{
+    padding: 70px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#work {
+    text-align: center;   
+}
+
+.text-work {
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.img-work {
+    background-position: center;
+    width: 100%;
+    margin: 35px 0px;
+}
+
+.box-work div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-work img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.box-work img:hover {
+    opacity: 0.7;
+}
